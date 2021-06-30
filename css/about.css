@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../img/12.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgba(0,0,0,0.7) url("../img/12.jpg");
+   
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+    
+}
+.image-section{
+    float: right;
+    width: 60%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 150%;
+    bottom: 150px;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: #918f8f;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: #b8a5a5;
+    color: #fff;
+}
+.footer {
+    padding-top: 0px;
+    text-align: center;
+}
+

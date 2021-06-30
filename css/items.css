@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../img/12.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgba(0,0,0,0.7) url("../img/12.jpg");
+    padding: 10px;
+}
+.firstSection{
+    height: 100vh;
+}
+
+
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 30%;
+
+}
+
+
+.firstHalf{
+    width: 75%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    left: 145px;
+   
+   font-size: large;
+   
+}
+.secondHalf{
+    width: 30%;
+
+}
+
+.secondHalf img{
+    width: 90%;
+    border: 1px solid white;
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+    
+}
+
+.text-big{
+    font-size: 30px;
+    
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.heading{
+    color: grey;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-family:serif;
+}
+.Items{
+    height: 100vh;
+    background: #fff;
+}
+
+.Items .card-container{
+    display: flex;
+    align-items: center;
+    background:#fff;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Items .card-container .card{
+    width: 30rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.Items .card-container .card img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.Items .card-container .content{
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+
+.Items .card-container .content .title{
+    color: rgba(21, 151, 165, 0.8);
+    font-size: 2rem;
+}
+
+.Items .card-container .content .btn{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background:rgba(181, 205, 207, 0.8);
+    transition: .2s linear;
+}
+.Items .card-container .content .btn:hover{
+    background: none;
+    border: .2rem solid rgba(181, 205, 207, 0.8);
+    color: rgba(181, 205, 207, 0.8);
+}
+.Items .card-container .card .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    background: #ff0000;
+    color: #fff;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.footer {
+    
+    padding-top: 0px;
+    text-align: center;
+}
+

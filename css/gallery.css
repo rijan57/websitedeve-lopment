@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    z-index:1;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{ 
+    width: 50%;
+    text-align: right;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../img/12.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgba(0,0,0,0.7) url("../img/12.jpg");
+    padding: 10px;
+}
+.wrapper{
+    margin: 100px auto;
+    max-width: 1100px;
+}
+.wrapper nav{
+    display: flex;
+    justify-content: center;
+}
+nav .items{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+nav .items .item{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1abc;
+    border: 2px solid #1abc;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+nav .items .active,
+nav .items .item:hover{
+    color: #fff;
+    background: #1abc;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.gallery .image{
+    padding: 8px;
+    width: 200px;
+}
+.gallery .image.hide{
+    display: none;
+}
+.gallery .image.show{
+    display: block;
+}
+.gallery .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.gallery .image:hover img{
+    transform:scale(1.1);
+}
+.footer {
+    padding-top: 0px;
+    text-align: center;
+}
+
+
